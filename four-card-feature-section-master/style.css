@@ -1,0 +1,142 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  color: hsl(234, 12%, 34%);
+  font-weight: 500;
+}
+
+.feature {
+  margin: 6.4rem 6.4rem 8rem 6.4rem;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.heading-thin {
+  font-weight: 200;
+}
+
+.heading-bold {
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.container-description {
+  text-align: center;
+  padding: 0 38rem;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 6.4rem;
+  line-height: 2.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  column-gap: 2.4rem;
+  justify-items: center;
+}
+
+.card {
+  height: 250px;
+  width: 350px;
+  padding: 3rem 2.9rem;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 8px 23px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  align-self: center;
+}
+
+.card-red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 2.8rem;
+}
+
+.card-yellow {
+  border-top: 4px solid hsl(34, 97%, 64%);
+
+}
+
+.card-blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  align-self: center;
+
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.descrip-card {
+  color: hsl(229, 6%, 66%);
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+svg {
+  position: absolute;
+  right: 3.4rem;
+  bottom: 3.4rem;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+/* **** */
+
+@media (max-width:600px) {
+
+  .feature {
+    margin: 3.2rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 2.8rem;
+  }
+
+  .container-description {
+    text-align: center;
+    padding: 0 3rem;
+  }
+
+}
